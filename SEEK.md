@@ -27,3 +27,5 @@ Seek is running on port `3000`
 ```bash
 http://localhost:3000
 ```
+
+## SEEK API
