@@ -11,9 +11,11 @@
         "access": "view",
         "permissions": [
           {
-            "resource_id": "PROJECT_ID",
-            "resource_type": "projects",
-            "access": "download"
+            "resource": {
+              "resource_id": "PROJECT_ID",
+              "resource_type": "projects"
+            },
+            "access": "manage"
           }
         ]
       }
