@@ -1,5 +1,6 @@
 .idea
 # SEEK API credentials
 token
+token_localhost
 rawtoken
 .ipynb_checkpoints
