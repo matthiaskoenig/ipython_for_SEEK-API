@@ -29,3 +29,5 @@ http://localhost:3000
 ```
 
 ## SEEK API
+Swagger documentation is avaiblable here:  
+https://app.swaggerhub.com/apis/FAIRDOM/SEEK/0.1
