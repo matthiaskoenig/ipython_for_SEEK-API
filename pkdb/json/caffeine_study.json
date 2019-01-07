@@ -12,8 +12,8 @@
         "permissions": [
           {
             "resource": {
-              "resource_id": "PROJECT_ID",
-              "resource_type": "projects"
+              "id": "PROJECT_ID",
+              "type": "projects"
             },
             "access": "manage"
           }
@@ -22,15 +22,13 @@
     },
     "relationships": {
       "investigation": {
-        "data":
-        {
+        "data": {
           "id": "INVESTIGATION_ID",
           "type": "investigations"
         }
       },
-      "publications":{
-        "data": [
-        ]
+      "publications": {
+        "data": []
       },
       "creators": {
         "data": [

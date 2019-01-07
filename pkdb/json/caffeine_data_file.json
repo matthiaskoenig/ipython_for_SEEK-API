@@ -4,7 +4,10 @@
     "attributes": {
       "title": "TITLE",
       "description": "Digitized pharmacokinetics data.",
-      "tags": ["caffeine", "pharmacokinetics"],
+      "tags": [
+        "caffeine",
+        "pharmacokinetics"
+      ],
       "license": "License Not Specified",
       "other_creators": "",
       "content_blobs": [
@@ -18,10 +21,9 @@
         "permissions": [
           {
             "resource": {
-              "resource_id": "PROJECT_ID",
-              "resource_type": "projects"
+              "id": "PROJECT_ID",
+              "type": "projects"
             },
-
             "access": "edit"
           }
         ]

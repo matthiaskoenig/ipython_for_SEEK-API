@@ -7,12 +7,16 @@
         "key": "EXP"
       },
       "assay_type": {
-        "uri": "http://www.mygrid.org.uk/ontology/JERMOntology#mass_Spectrometry"
+        "uri": "http://www.mygrid.org.uk/ontology/JERMOntology#metabolomics"
       },
       "technology_type": {
-        "uri": "http://www.mygrid.org.uk/ontology/JERMOntology#mass_Spectrometry"
+        "uri": "http://www.mygrid.org.uk/ontology/JERMOntology#metabolomics"
       },
-      "tags": ["Pharmacokinetics", "Blood sampling", "Human"],
+      "tags": [
+        "Pharmacokinetics",
+        "Blood sampling",
+        "Human"
+      ],
       "other_creators": "",
       "description": "Data digitized from publication.\n\nAUTHOR_DESCRIPTION",
       "policy": {
@@ -20,8 +24,8 @@
         "permissions": [
           {
             "resource": {
-              "resource_id": "PROJECT_ID",
-              "resource_type": "projects"
+              "id": "PROJECT_ID",
+              "type": "projects"
             },
             "access": "manage"
           }
@@ -30,16 +34,15 @@
     },
     "relationships": {
       "study": {
-        "data":
-        {
+        "data": {
           "id": "STUDY_ID",
           "type": "studies"
         }
       },
-      "publications":{
+      "publications": {
         "data": []
       },
-      "organisms":{
+      "organisms": {
         "data": [
           {
             "id": "HOMO_SAPIENS",
@@ -47,8 +50,7 @@
           }
         ]
       },
-
-     "creators": {
+      "creators": {
         "data": [
           {
             "id": "KOENIG_ID",
