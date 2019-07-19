@@ -2,5 +2,7 @@
 # SEEK API credentials
 token
 token_localhost
+token_fairdom
+
 rawtoken
 .ipynb_checkpoints
