@@ -14,7 +14,7 @@ In addition, contains examples on how to POST assets both based on uploads, or r
 ## Installation
 Setup python virtual environment
 ```
-mkvirtualenv seek --python==python3.6
+mkvirtualenv seek --python==python3.8
 (seek) pip install -r requirements.txt --upgrade
 (seek) pip install jupyterlab --upgrade
 (seek) python -m ipykernel install --user --name seek --display-name "seek"
